@@ -1,0 +1,86 @@
+
+:root{
+    --text_colour: blue;
+}
+
+
+#p1 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    background-color: gold;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    max-width: 100px;
+}
+
+#p1::after{
+    content: "A"
+}
+
+.btn{
+    background-color: brown;
+}
+
+input[type]{
+
+    background-color: var(--text_colour);
+}
+
+a:hover{
+
+    color: red;
+}
+
+button + input{
+    color: white;
+}
+
+img{
+
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    overflow: auto;
+}
+
+img:hover{
+    opacity: 0.5;
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+}
+
+#p2{
+    background-image: url(/03HTML/Images/en-us_arcane_payoff_horizontal_wallpaper_1920x1080_rgb_w1.0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10hv;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tutorials{
+    background-color: aqua;
+    width: 20rem;
+    height: 30vh;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.tutorial{
+    background-color: azure;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
